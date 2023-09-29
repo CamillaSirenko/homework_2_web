@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "homework-2-web"
+version = "0.0.2"
+description = ""
+authors = ["OlgaSirenko <132263673+CamillaSirenko@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.5"
+colorama = "^0.4.6"
+prompt-toolkit = "^3.0.39"
+faker = "^19.6.2"
+pygame = "^2.5.2"
+datetime = "^5.2"
+pathlib = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
